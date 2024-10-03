@@ -1,1 +1,3 @@
+pip freeze > requirements.txt 用于打包Python项目所对应的依赖环境.
 
+ pip install -r requirements.txt 用于针对所在目录下的 requirements.txt 文件中所记录的环境依赖进行安装.
